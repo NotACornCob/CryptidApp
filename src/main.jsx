@@ -7,6 +7,8 @@ import {
 import './index.css'
 import Root from "./routes/root";
 import ErrorPage from "./ErrorPage";
+import Form from "./Form";
+import Cryptids from "./Cryptids"
 
 
 const router = createBrowserRouter([
@@ -15,6 +17,16 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
   },
+  {
+    path: "/Form",
+    element: <Form />,
+    errorElement: <ErrorPage /> 
+  },
+  {
+    path: "/Cryptids",
+    element: <Cryptids />,
+    errorElement: <ErrorPage /> 
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
