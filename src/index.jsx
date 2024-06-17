@@ -23,7 +23,7 @@ const router = createBrowserRouter([
             element: <Home />,
         },
         {
-            path: "/Cryptids",
+            path: "/Cryptids/:id",
             element: <Cryptids />,
         },
         {

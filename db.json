@@ -28,7 +28,7 @@
         {
             "id": 4,
             "name": "Chupacabra",
-            "image": "./Assets/BigFoot.jpg",
+            "image": "./Assets/Chupacabra.jpg",
             "description": "Bigfoot, also commonly referred to as Sasquatch, is a large and hairy human-like mythical creature alleged by some to inhabit forests in North America, particularly in the Pacific Northwest.",
             "last sighting": "324",
             "KeyWords": "KeyWords"

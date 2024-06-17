@@ -1,17 +1,18 @@
 import { useEffect, useState } from "react";
+import CryptidCard from "./Components/CryptidCard"
 
 function Home() {
     const [cryptids, setCryptids] = useState([]);
 
     useEffect(() =>{
-      fetch("http://localhost:4000/cryptids")
+      fetch("http://localhost:3000/Cryptids")
         .then(r => r.json())
-        .then(data => setMovies(data))
+        .then(data => setCryptids(data))
         .catch(error => console.error(error))
     }, [])
   
     const cryptidList = cryptids.map(cryptid =>{
-      return < CryptidCard key={cryptid.id} id={cryptid.id} title={cryptid.title} genres={cryptid.genres} time={cryptid.time} />
+      return < CryptidCard key={cryptid.id} id={cryptid.id} name={cryptid.name} image={cryptid.image} description={cryptid.description} sightings={cryptid.sightings} />
     })
   
     return (

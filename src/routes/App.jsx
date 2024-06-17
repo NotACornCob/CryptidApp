@@ -8,11 +8,8 @@ function App() {
         <>
         <header>
         <NavBar />
-        </header>
         <Outlet />
-        <body>
-          
-        </body>
+        </header>
         </>
     );
   }

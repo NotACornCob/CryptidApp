@@ -12,7 +12,7 @@ function NavBar() {
    > Home
    </NavLink>
    <NavLink
-     to="/Cryptids"
+     to="/Cryptids/:id"
      className="navbar"
    > Cryptids
    </NavLink>
