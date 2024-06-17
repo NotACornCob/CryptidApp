@@ -13,27 +13,27 @@ import Cryptids from "./Cryptids"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "//",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
         {
-            path: "/Form",
+            path: "//Form",
             element: <Form />,
             errorElement: <ErrorPage /> 
         },
         {
-            path: "/Cryptids",
+            path: "//Cryptids",
             element: <Cryptids />,
             errorElement: <ErrorPage /> 
         },
         {
-            path: "/Form",
+            path: "//Form",
             element: <Form />,
             errorElement: <ErrorPage /> 
         },
         {
-            path: "/Cryptids",
+            path: "//Cryptids",
             element: <Cryptids />,
             errorElement: <ErrorPage /> 
         }
