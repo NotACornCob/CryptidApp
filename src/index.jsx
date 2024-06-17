@@ -9,34 +9,27 @@ import App from "./routes/App";
 import ErrorPage from "./ErrorPage";
 import Form from "./Form";
 import Cryptids from "./Cryptids"
+import Home from "./Home"
 
 
 const router = createBrowserRouter([
   {
-    path: "//",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
         {
-            path: "//Form",
-            element: <Form />,
-            errorElement: <ErrorPage /> 
+            path: "/",
+            element: <Home />,
         },
         {
-            path: "//Cryptids",
+            path: "/Cryptids",
             element: <Cryptids />,
-            errorElement: <ErrorPage /> 
         },
         {
-            path: "//Form",
+            path: "/Form",
             element: <Form />,
-            errorElement: <ErrorPage /> 
         },
-        {
-            path: "//Cryptids",
-            element: <Cryptids />,
-            errorElement: <ErrorPage /> 
-        }
       ]
   }
 ]);

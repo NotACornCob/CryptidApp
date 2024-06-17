@@ -1,19 +1,18 @@
 import React from "react";
-import NavBar2 from "../Components/NavBar2"
+import NavBar from "../Components/NavBar"
+import { Outlet } from "react-router-dom";
+
 
 function App() {
     return (
         <>
         <header>
+        <NavBar />
         </header>
-        <main>
-        <div className="navbar">
-        <NavBar2 />
-          </div> 
-        <h1>Home Page</h1>
-       <p>Welcome to Cryptid Crawler!</p>
-
-        </main>
+        <Outlet />
+        <body>
+          
+        </body>
         </>
     );
   }
