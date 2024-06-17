@@ -10,7 +10,7 @@
             "keywords": ["Bipedal", "Humanoid", "Giant"]
         }, 
         {
-            "id": 1,
+            "id": 2,
             "name": "MothMan",
             "image": "./Assets/Mothman.jpg",
             "description": "Described as a human-sized insect figure with large, glowing red eyes and enormous, moth-like wings, Mothman first gained notoriety in the 1960s in Point Pleasant, West Virginia.",
@@ -18,7 +18,7 @@
             "keywords": ["Ominous", "Insectoid", "Flying"]
         },
         {
-            "id": 1,
+            "id": 3,
             "name": "Windego",
             "image": "./Assets/Windego.jpg",
             "description": "Described as a gaunt, emaciated figure with glowing eyes, sharp fangs, elongated limbs, and horrific odor.",
@@ -26,7 +26,7 @@
             "keywords" : "KeyWords"
         },
         {
-            "id": 1,
+            "id": 4,
             "name": "Chupacabra",
             "image": "./Assets/BigFoot.jpg",
             "description": "Bigfoot, also commonly referred to as Sasquatch, is a large and hairy human-like mythical creature alleged by some to inhabit forests in North America, particularly in the Pacific Northwest.",
@@ -34,7 +34,7 @@
             "KeyWords": "KeyWords"
         }, 
         {
-            "id": 1,
+            "id": 5,
             "name": "Big Foot",
             "image": "./Assets/BigFoot.jpg",
             "description": "The name `Chupacabra` translates to `goat-sucker` in Spanish, reflecting its infamous reputation for attacking livestock, particularly goats, and draining their blood.",
@@ -42,7 +42,7 @@
             "keywords": "Keywords"
         },
         {
-            "id": 1,
+            "id": 6,
             "name": "Big Foot",
             "image": "image",
             "description": "description",

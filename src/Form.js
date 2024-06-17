@@ -1,8 +1,7 @@
 import React from "react";
-import NavBar from "./Components/NavBar"
  
 function Form () {
-
+return 
 }
 
 export default Form;
