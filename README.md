@@ -1,8 +1,14 @@
-# React + Vite
+## Cryptid Crawler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cryptid Crawler is an app project made for phase 2 of FlatIron's coding bootcamp. It's a single page React app developed using Vite. 
 
-Currently, two official plugins are available:
+The creator neither condones nor condemns the search for cryptids. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
+
+[Vite.js]https://vitejs.dev/
+[JSON]https://www.json.org/json-en.html
+
+## License 
+
+##[MIT](https://choosealicense.com/licenses/mit/)
