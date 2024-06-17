@@ -1,0 +1,55 @@
+{  
+    "Cryptids": [
+        {
+            "id": 1,
+            "name": "Big Foot",
+            "image": "./Assets/BigFoot.jpg",
+            "description": "Bigfoot, often referred to as Sasquatch, is a legendary and elusive creature believed to inhabit the forests and remote regions of North America.",
+            "last sighting": "6/15/2021",
+            "region": "Pacific Northwest",
+            "keywords": ["Bipedal", "Humanoid", "Giant"]
+        }, 
+        {
+            "id": 1,
+            "name": "MothMan",
+            "image": "./Assets/Mothman.jpg",
+            "description": "Described as a human-sized insect figure with large, glowing red eyes and enormous, moth-like wings, Mothman first gained notoriety in the 1960s in Point Pleasant, West Virginia.",
+            "last sighting": "2/3/2010",
+            "keywords": ["Ominous", "Insectoid", "Flying"]
+        },
+        {
+            "id": 1,
+            "name": "Windego",
+            "image": "./Assets/Windego.jpg",
+            "description": "Described as a gaunt, emaciated figure with glowing eyes, sharp fangs, elongated limbs, and horrific odor.",
+            "last sighting": "5/21/2024",
+            "keywords" : "KeyWords"
+        },
+        {
+            "id": 1,
+            "name": "Chupacabra",
+            "image": "./Assets/BigFoot.jpg",
+            "description": "Bigfoot, also commonly referred to as Sasquatch, is a large and hairy human-like mythical creature alleged by some to inhabit forests in North America, particularly in the Pacific Northwest.",
+            "last sighting": "324",
+            "KeyWords": "KeyWords"
+        }, 
+        {
+            "id": 1,
+            "name": "Big Foot",
+            "image": "./Assets/BigFoot.jpg",
+            "description": "The name `Chupacabra` translates to `goat-sucker` in Spanish, reflecting its infamous reputation for attacking livestock, particularly goats, and draining their blood.",
+            "Sightings": "324",
+            "keywords": "Keywords"
+        },
+        {
+            "id": 1,
+            "name": "Big Foot",
+            "image": "image",
+            "description": "description",
+            "Sightings": "Sightings",
+            "KeyWords" : "KeyWords"
+        }
+
+                ]
+    
+}
