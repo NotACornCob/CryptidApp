@@ -3,26 +3,26 @@ import CryptidCard from "./Components/CryptidCard"
 
 function Home() {
     const [cryptids, setCryptids] = useState([]);
-
+    const [likeCount, setLikeCount] = useState();
     useEffect(() =>{
       fetch("http://localhost:3000/Cryptids")
         .then(r => r.json())
         .then(data => setCryptids(data))
         .catch(error => console.error(error))
     }, [])
-  
+
     const cryptidList = cryptids.map(cryptid =>{
-      return < CryptidCard key={cryptid.id} id={cryptid.id} name={cryptid.name} image={cryptid.image} description={cryptid.description} sightings={cryptid.sightings} />
+      console.log(cryptid.likes)
+      return < CryptidCard likecount={cryptid.likes} key={cryptid.id} id={cryptid.id} name={cryptid.name} image={cryptid.image} description={cryptid.description} sightings={cryptid.lastSighting} keywords={cryptid.keywords} />
     })
   
     return (
-        <div>
-        <header>
-        <h1>Home Page</h1>
-        </header>
-        <main>
+        <div className="Home">
+        <main><div>
+        <h1>Cryptid.Go</h1> 
+        <p><b>Join our community of cryptid seekers!</b></p>
+        </div>
           <div>
-       <p>Welcome to Cryptid Crawler!</p>
        </div>
        <div>
        {cryptidList}

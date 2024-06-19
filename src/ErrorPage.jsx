@@ -6,6 +6,7 @@ export default function ErrorPage() {
 
   return (
     <div id="error-page">
+      <img src="./Assets/GreatGazoo.jpg" />
       <h1>Oops!</h1>
       <p>Sorry, an unexpected error has occurred.</p>
       <p>

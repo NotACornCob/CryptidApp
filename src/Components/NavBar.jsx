@@ -12,11 +12,6 @@ function NavBar() {
    > Home
    </NavLink>
    <NavLink
-     to="/Cryptids/:id"
-     className="navbar"
-   > Cryptids
-   </NavLink>
-   <NavLink
      to="/Form"
      className="navbar"
    > Submissions
