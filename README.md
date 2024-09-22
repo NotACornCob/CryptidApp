@@ -6,8 +6,8 @@ The creator neither condones nor condemns the search for cryptids.
 
 ## Requirements
 
-[Vite.js]https://vitejs.dev/
-[JSON]https://www.json.org/json-en.html
+[Vite.js](https://vitejs.dev/)
+[JSON](https://www.json.org/json-en.html)
 
 ## License 
 
